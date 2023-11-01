@@ -1,0 +1,40 @@
+/* Navbar section */
+.navbar{
+    flex-direction: column;
+    width: 100vw;
+}
+.navbar ul li a{
+    padding: 8px 7px;
+}
+
+/* home section */
+.home{
+    height: 375px;
+}
+.home::before{
+    height: 540px;
+}
+.hoe h1{
+    /* font-size: 2rem; */
+}
+
+/* services section */
+.services{
+    margin-top: 20px;
+    height: 100%;
+}
+.services .boxes{
+    flex-wrap: wrap;
+}
+
+/* client section */
+.client-container{
+    height: 100%;
+}
+.client-container::before{
+    height: 100%;
+}
+
+.clients{
+    flex-wrap: wrap;
+}
